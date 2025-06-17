@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OperatingSystem by TheCreatorOfClearCode</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="language-selector">
+    <button id="language-toggle">Language</button>
+    <div id="language-options">
+      <div class="language-option" data-lang="en">English</div>
+      <div class="language-option" data-lang="ru">Русский</div>
+    </div>
+  </div>
+
+  <div class="terminal">
+    <div class="terminal-line">
+      <span class="prompt">-&gt;</span>
+      <span id="typed-text" class="typed-text"></span><span id="cursor" class="terminal-cursor">_</span>
+    </div>
+
+    <div id="content" class="hidden">
+      <h1 data-i18n="title">OperatingSystem by TheCreatorOfClearCode</h1>
+      <img src="Screenshots/Main.png" alt="OS Screenshot" class="screenshot" />
+      <p data-i18n="description">OperatingSystem by TheCreatorOfClearCode is a modular, minimalistic operating system written in C# using <a href="https://github.com/CosmosOS" target="_blank" rel="noopener noreferrer" class="link">Cosmos</a>.</p>
+
+      <div class="features">
+        <div class="feature" data-i18n="feature1">Modular architecture</div>
+        <div class="feature" data-i18n="feature2">Console Shell</div>
+        <div class="feature" data-i18n="feature3">Basic commands and utilities</div>
+      </div>
+
+      <div class="buttons">
+        <a href="https://github.com/TheCreatorOfClearCode/OperatingSystem-by-TheCreatorOfClearCode/releases/tag/1.1" target="_blank" rel="noopener noreferrer" class="btn" data-i18n="download">Download</a>
+        <a href="https://github.com/TheCreatorOfClearCode/OperatingSystem-by-TheCreatorOfClearCode" target="_blank" rel="noopener noreferrer" class="btn" data-i18n="source">Source Code</a>
+      </div>
+    </div>
+
+    <div id="second-line" class="terminal-line hidden">
+      <span class="prompt">-&gt;</span><span class="terminal-cursor">_</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
